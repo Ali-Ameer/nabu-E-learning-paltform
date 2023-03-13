@@ -1,0 +1,384 @@
+{
+  "en": {
+    "navbar": {
+      "logo": "Nabu",
+      "list": {
+        "home": "Home",
+        "courses": "Courses",
+        "about": "About",
+        "contact": "Contact"
+      }
+    },
+    "navbarUser": {
+      "profile": "Profile",
+      "logout": "Logout",
+      "btnLogin": "Login",
+      "btnSignUp": "Sign up"
+    },
+    "hero": {
+      "title": "Learn a <span class='newSkillTag relative'>New Skill</span> Everyday, Anytime and Anywhere",
+      "subTitle": "Provide you with latest online learn system and material that help your knowledge growing.",
+      "btn": {
+        "singUp": "Sing Up",
+        "DiscoverCourses": "Discover courses"
+      }
+    },
+    "dataInfo": [
+      {"title": "Instructor", "data": "+300", "color": "secondary"},
+      {"title": "Student", "data": "+15,000", "color": "tertiary"},
+      {"title": "Video", "data": "+10,000", "color": "quaternary"},
+      {"title": "User", "data": "+100,000", "color": "quinary"}
+    ],
+    "courseCard": {
+      "btnContinue": "Continue Learning",
+      "btnEnroll": "Enroll now"
+
+    },
+    "popularCourse": {
+      "title": "Popular course",
+      "btn": "All courses"
+    },
+    "about": {
+      "title": "About us",
+      "subTitle": "Nabu platform provides high-quality e-learning courses taught by experienced instructors who are experts in their fields.</br></br> Our mission is to empower students with the knowledge and skills they need to succeed in today's digital landscape. Join Nabu today to enhance your skills and achieve your goals in technology, security, design etc.",
+      "list": [
+        {"title": "Quality education for all levels."},
+        {"title": "Innovative approach to learning."},
+        {"title": "Vibrant community of students and instructors."},
+        {"title": "Accessibility for everyone, regardless of background or circumstances."}
+      ],
+      "btnSignUp": "Join now",
+      "btnExploreCourses": "Explore courses"
+    },
+    "contact": {
+      "pageName": "Contact us",
+      "title": "We are so glad to hear from you",
+      "subTitle": "We're here to help you with any questions or concerns you may have. Contact us today and our friendly team will get back to you as soon as possible.",
+      "quickContact": "Quick Contact",
+      "form": {
+        "name": "full name",
+        "email": "Email",
+        "phone": "Phone",
+        "message": "Message",
+        "err": "All inputs are required !",
+        "msg": "Thank you for getting in touch!",
+        "btn": "Send"
+      }
+    },
+    "category": {
+      "title": "Explore by Category",
+      "subTitle": "Browse courses by category will be more easy for you.",
+      "btn": "See all",
+      "list": {
+        "development": "Development",
+        "design": "Art & Design",
+        "marketing": "Marketing",
+        "security": "Security"
+      }
+    },
+    "newsLetter": {
+      "title": "Subscribe our newsletter",
+      "subTitle": "Stay updated on the latest news, courses, and offers from Nabu by subscribing to our newsletter.",
+      "inputPlaceHolder": "Please enter your email",
+      "subscribe": "Subscribe"
+    },
+    "footer": {
+      "logo": "Nabu",
+      "subTitle": "Nabu - Discover a personalized e-learning experience to unlock your potential and gain knowledge.",
+      "list": {
+        "home": "Home",
+        "courses": "Courses",
+        "about": "About",
+        "contact": "Contact"
+      },
+      "copyRight": "made with ❤️ by Ali Ameer"
+    },
+    "courseAndCategories" : {
+      "title": "All courses",
+      "searchPlaceholder": "search",
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "highestRating": "Highest rating",
+        "lowestRating": "Lowest rating"
+      },
+      "noCourse": "can't find course !",
+      "loading": "loading...",
+      "err": "something went wrong please try again !",
+      "categories": {
+      "webDevelopment": "Web development",
+      "design": "Design",
+      "programming": "Programming",
+      "marketing": "Marketing",
+      "cybersecurity": "Cybersecurity",
+      "ai": "Artificial Intelligence",
+      "blockchainTechnology": "Blockchain Technology",
+      "networking": "Networking",
+      "videoEditing": "Video editing",
+      "photography": "Photography",
+      "languages": "Languages"
+      }
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "account": "Account",
+      "myCourses": "my courses",
+      "logout": "Logout"
+    },
+    "account": {
+      "enrolledCourses": "Enrolled courses",
+      "name": "full name",
+      "username": "Username",
+      "email": "Email",
+      "role": "Role",
+      "btnApply": "Apply",
+      "btnCancel": "Cancel"
+    },
+    "courseDetails": {
+      "topic": "Topic",
+      "lesson": "Lesson",
+      "loading": "loading...",
+      "err": "something went wrong please try again !",
+      "card1": {
+        "first": "Access on mobile and desktop",
+        "second": "Full time access",
+        "third": "certificate on completion",
+        "price": "Always free 0$",
+        "btnJoinNow": "Join now",
+        "btnContinueLearning": "Continue learning"
+      },
+      "card2": {
+        "teacher": "Instructor"
+      }
+    },
+    "coursePage": {
+      "video": "Video",
+      "next": "Next",
+      "previous": "Previous",
+      "loading": "loading...",
+      "err": "something went wrong please try again !"
+    },
+    "login": {
+      "title": "Login to your account or ",
+      "signUp": "Sign up",
+      "email": "Email",
+      "password": "Password",
+      "btnLogin": "Login",
+      "welcome": "welcome back",
+      "errMsg": "Email or Password is incorrect !",
+      "requiredEmail": "Email is required",
+      "invalidEmail": "Email is invalid",
+      "requiredPassword": "password is required",
+      "invalidPassword": "password is invalid",
+      "loading": "loading..."
+    },
+    "signUp": {
+      "title": "Create new account",
+      "login": "Login",
+      "name": "Name",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "btnSignUp": "Sign up",
+      
+      "welcome": "Welcome",
+      "errMsg": "Email or Password is incorrect !",
+      "requiredEmail": "Email is required",
+      "invalidEmail": "Email is invalid",
+      "requiredPassword": "password is required",
+      "invalidPassword": "password is invalid",
+      "loading": "loading..."
+    }
+  },
+
+  "ar": {
+    "navbar": {
+      "logo": "نابو",
+      "list": {
+        "home": "الرئيسية",
+        "courses": "الدورات",
+        "about": "حول",
+        "contact": "تواصل"
+      }
+    },
+    "navbarUser": {
+      "profile": "الملف الشخصي",
+      "logout": "تسجيل الخروج",
+      "btnLogin": "دخول",
+      "btnSignUp": "التسجيل"
+    },
+    "hero": {
+      "title": "تعلم <span class='newSkillTag relative'> مهارات جديدة</span></br>كل يوم, اي وقت و اي مكان",
+      "subTitle": "نزودك بأحدث نظام ومواد تعليمية عبر الإنترنت تساعدك في التعلم و زيادة معرفتك.",
+      "btn": {
+        "singUp": "انشاء حساب",
+        "DiscoverCourses": "تصفح الدورات"
+      }
+    },
+    "dataInfo": [
+      {"title": "مدرب", "data": "+300", "color": "secondary"},
+      {"title": "طالب", "data": "+15,000", "color": "tertiary"},
+      {"title": "فيديو", "data": "+10,000", "color": "quaternary"},
+      {"title": "مستخدم", "data": "+100,000", "color": "quinary"}
+    ],
+    "courseCard": {
+      "btnContinue": "متابعة التعلم",
+      "btnEnroll": "التسجيل الان"
+    },
+    "popularCourse": {
+      "title": "الدورات الشائعة",
+      "btn": "جميع الدورات"
+    },
+    "about": {
+      "title": "من نحن",
+      "subTitle": "توفر منصة نابو دورات تعليمية عالية الجودة عبر الإنترنت يتم تدريسها من قِبَل مدربين ذوي خبرة في مجالاتهم. </br></br> مهمتنا هي تمكين الطلاب من المعرفة والمهارات التي يحتاجونها للنجاح في العالم الرقمي الحالي. انضم إلى منصة نابو اليوم لتحسين مهاراتك وتحقيق أهدافك في التكنولوجيا والأمن والتصميم وما إلى ذلك.",
+      "list": [
+        {"title": "تعليم ذو جودة عالية لجميع المستويات."},
+        {"title": "نهج مبتكر للتعلم."},
+        {"title": "مجتمع نشط للطلاب والمدربين."},
+        {"title": "إمكانية الوصول للجميع، بغض النظر عن الخلفية أو الظروف."}
+      ],
+      "btnSignUp": "انضم الان",
+      "btnExploreCourses": "تصفح الدورات"
+    },
+    "contact": {
+      "pageName": "تواصل معنا",
+      "title": "نحن سعداء جداً بأن نسمع منكم",
+      "subTitle": "نحن هنا لمساعدتك في أي أسئلة أو مخاوف قد تواجهها. اتصل بنا وسوف يقوم فريقنا بالتواصل معك في أسرع وقت ممكن.",
+      "quickContact": "اتصال سريع",
+      "form": {
+        "name": "الاسم الكامل",
+        "email": "البريد الالكتروني",
+        "phone": "الهاتف",
+        "message": "الرسالة",
+        "err": "جميع الحقول مطلوبة الرجاء التحقق من جميع المدخلات !",
+        "msg": "شكرا لك على التواصل معنا, لقد استلمنا رسالتك",
+        "btn": "ارسال"
+      }
+    },
+    "category": {
+      "title": "تصفح عن طريق الاقسام",
+      "subTitle": "تصفح الدورات عن طريق الاقسام سيكون اكثر سهولة لك.",
+      "btn": "اظهار الكل",
+      "list": {
+        "development": "برمجة",
+        "design": "تصميم & فن",
+        "marketing": "تسويق",
+        "security": "حماية"
+      }
+    },
+    "newsLetter": {
+      "title": "اشترك في النشرة الإخبارية",
+      "subTitle": "تابع آخر الأخبار والدورات التعليمية والعروض الحصرية من منصة نابو عن طريق الاشتراك في النشرة الإخبارية الخاصة بنا.",
+      "inputPlaceHolder": "رجاء أدخل بريدك الإلكتروني",
+      "subscribe": "أشترك"
+    },
+    "footer": {
+      "logo": "نابو",
+      "subTitle": "نابو - اكتشف تجربة تعلم إلكترونية مخصصة لإطلاق إمكانياتك واكتساب المعرفة.",
+      "list": {
+        "home": "الرئيسية",
+        "courses": "الدورات",
+        "about": "حول",
+        "contact": "تواصل"
+      },
+      "copyRight": "انشئ مع ❤️ من قبل علي امير"
+    },
+    "courseAndCategories" : {
+      "title": "جميع الدورات",
+      "searchPlaceholder": "بحث",
+      "sort": {
+        "newest": "الاحدث",
+        "oldest": "الاقدم",
+        "highestRating": "اعلى تصنيف",
+        "lowestRating": "اقل تصنيف"
+      },
+      "noCourse": "لم يتم العثور على اي دورات !",
+      "loading": "يتم التحميل...",
+      "err": "حدث خطا ما الرجاء المحاولة ثانية !",
+      "categories": {
+      "webDevelopment": "تطوير الويب",
+      "design": "تصميم",
+      "programming": "برمجة",
+      "marketing": "تسويق",
+      "cybersecurity": "امن سيبراني",
+      "ai": "الذكاء الاصطناعي",
+      "blockchainTechnology": "سلسلة الكتل (البلوك تشين)",
+      "networking": "الشبكات",
+      "videoEditing": "تعديل فيديو",
+      "photography": "تصوير",
+      "languages": "لغات"
+      }
+    },
+    "dashboard": {
+      "title": "لوحة التحكم",
+      "account": "الحساب",
+      "myCourses": "دوراتي التعلمية",
+      "logout": "تسجيل خروج"
+    },
+    "account": {
+      "enrolledCourses": "الدورات المسجلة",
+      "name": "الاسم الكامل",
+      "username": "اسم المستخدم",
+      "email": "البريد الالكتروني",
+      "role": "الدور",
+      "btnApply": "تطبيق",
+      "btnCancel": "الغاء"
+    },
+    "courseDetails": {
+      "topic": "الموضوع",
+      "lesson": "درس",
+      "loading": "يتم التحميل...",
+      "err": "حدث خطا ما الرجاء المحاولة ثانية !",
+      "card1": {
+        "first": "الدخول من الهواتف والكمبيوتر",
+        "second": "دخول في اي وقت",
+        "third": "شهادة عند الاكمال",
+        "price": "مجاني دائماً $0",
+        "btnJoinNow": "انضم الان",
+        "btnContinueLearning": "متابعة التعلم"
+      },
+      "card2": {
+        "teacher": "مدرب"
+      }
+    },
+    "coursePage": {
+      "video": "فيديو",
+      "next": "التالي",
+      "previous": "السابق",
+      "loading": "يتم التحميل...",
+      "err": "حدث خطا ما الرجاء المحاولة ثانية !"
+    },
+    "login": {
+      "title": "سجل الدخول الى حسابك او",
+      "signUp": "انشئ حساب جديد ",
+      "email": "البريد الالكتروني",
+      "password": "كلمة المرور",
+      "btnLogin": "الدخول",
+        "welcome": "مرحباً بك",
+        "errMsg": "البريد الالكتروني او كلمة المرور غير صحيحية !",
+        "requiredEmail": "البريد الالكتروني مطلوب",
+        "invalidEmail": "البريد الالكتروني غير صالح",
+        "requiredPassword": "كلمة المرور مطلوبة",
+        "invalidPassword": "كلمة المرور غير صالحة",
+        "loading": "انتظر.."
+    },
+    "signUp": {
+        "title": "انشاء حساب جديد",
+        "login": "الدخول",
+        "name": "الاسم الكامل",
+        "username": "اسم المستخدم",
+        "email": "البريد الالكتروني",
+        "password": "كلمة المرور",
+        "btnSignUp": "التسجيل",
+        
+        "welcome": "مرحباً",
+        "errMsg": "حدث خطا ما الرجاء اعادة المحاولة !",
+        "requiredEmail": "Email is required",
+        "invalidEmail": "Email is invalid",
+        "requiredPassword": "password is required",
+        "invalidPassword": "password is invalid",
+        "loading": "انتظر.."
+    }
+  }
+}

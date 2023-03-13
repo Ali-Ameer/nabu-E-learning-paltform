@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', 'sans-serif' , 'tajawal';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background-color: #fff;
+}
+body.dark {
+  background-color: #262626;
+}
+.transition--duration {
+  transition-duration: 400ms;
+}
+
+header .newSkillTag::after{
+  content: "";
+  width:250px;
+  height:100px;  
+  border:solid 5px #8338ec;
+  border-color:#8338ec transparent transparent transparent;
+  border-radius: 50%/60px 40px 0 0;
+  position: absolute;
+  top: 60px;
+  left: calc(50% - 125px);
+  overflow: hidden;
+}
+@media (max-width: 769px) {
+  header .newSkillTag::after{
+    content: "";
+    width:170px;
+    height:100px;  
+    border-radius: 50%/30px 20px 0 0;
+    top: 39px;
+    left: calc(50% - 85px);
+  }
+}
+@media ((min-width: 769px) and ( max-width: 1023px)) {
+  header .newSkillTag::after{
+    content: "";
+    width:170px;
+    height:100px;  
+    border-radius: 50%/30px 20px 0 0;
+    top: 40px;
+    left: calc(50% - 85px);
+  }
+}
