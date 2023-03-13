@@ -7,7 +7,7 @@ import Button from "./Button";
 
 export default function UserInfoAndUpdate() {
     const [updateUser, {isLoading, isError} ] = useUpdateUserMutation()
-    const language = useSelector(selectLanguageData(state, "account"))
+    const language = useSelector(state => selectLanguageData(state, "account"))
     const userData = useSelector(selectUserData)
 
     const dispatch = useDispatch()
