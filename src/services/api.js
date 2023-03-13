@@ -1,9 +1,9 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-import { Navigate } from 'react-router-dom'
 import { setLogout, setToken } from '../features/userSlice'
+const apiKey = import.meta.env.VITE_API_KEY;
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: 'http://192.168.0.182:8000/api',
+  baseUrl: apiKey,
   credentials: 'include',
   prepareHeaders: (headers, { getState }) => {
     const token = getState().user.token
