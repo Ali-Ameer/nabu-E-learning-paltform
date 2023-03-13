@@ -7,7 +7,7 @@ const RequireAuth = lazy(()=> import("./components/RequireAuth"));
 const Home = lazy(()=> import("./pages/Home"));
 const Contact = lazy(()=> import("./pages/Contact"));
 const Dashboard = lazy(()=> import("./pages/Dashboard"));
-const UserEnrolledCourses = lazy(()=> import("./components/userEnrolledCourses"));
+const UserEnrolledCourses = lazy(()=> import("./components/UserEnrolledCourses"));
 const Course = lazy(()=> import("./pages/Course"));
 const CourseDetails = lazy(()=> import("./pages/CourseDetails"));
 const CoursePage = lazy(()=> import("./pages/CoursePage"));
