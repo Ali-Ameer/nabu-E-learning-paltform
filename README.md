@@ -1,8 +1,8 @@
 # Nabue E-Learning Platform
 
-Access the application in your browser at http://localhost:3000.
+Access the application in your browser at https://nabu-paltform.onrender.com/.
 
-[Live Demo](https://nabu-paltform.onrender.com/) | [API Repository](link_to_api_repository)
+[Live Demo](https://nabu-paltform.onrender.com/) | [API Repository](https://github.com/Ali-Ameer/Nabu-Backend-API)
 
 ## Table of Contents
 
