@@ -19,17 +19,17 @@ export default function Course() {
 
   console.log(data);
   const categoryData = [
-    { name: language.categories.webDevelopment, value: "Web development", id: 1 },
-    { name: language.categories.programming, value: "Programming", id: 2 },
-    { name: language.categories.design, value: "Design", id: 3 },
-    { name: language.categories.marketing, value: "Marketing", id: 4 },
-    { name: language.categories.cybersecurity, value: "Cybersecurity", id: 5 },
-    { name: language.categories.ai, value: "Artificial Intelligence", id: 6 },
-    { name: language.categories.blockchainTechnology, value: "Blockchain Technology", id: 7,},
-    { name: language.categories.networking, value: "Networking", id: 8 },
-    { name: language.categories.videoEditing, value: "video editing", id: 9 },
-    { name: language.categories.photography, value: "Photography", id: 10 },
-    { name: language.categories.languages, value: "Languages", id: 11 },
+    { name: language?.categories?.webDevelopment, value: "Web development", id: 1 },
+    { name: language?.categories?.programming, value: "Programming", id: 2 },
+    { name: language?.categories?.design, value: "Design", id: 3 },
+    { name: language?.categories?.marketing, value: "Marketing", id: 4 },
+    { name: language?.categories?.cybersecurity, value: "Cybersecurity", id: 5 },
+    { name: language?.categories?.ai, value: "Artificial Intelligence", id: 6 },
+    { name: language?.categories?.blockchainTechnology, value: "Blockchain Technology", id: 7,},
+    { name: language?.categories?.networking, value: "Networking", id: 8 },
+    { name: language?.categories?.videoEditing, value: "video editing", id: 9 },
+    { name: language?.categories?.photography, value: "Photography", id: 10 },
+    { name: language?.categories?.languages, value: "Languages", id: 11 },
   ];
 
   const handleSearch = (value) => {
@@ -37,8 +37,8 @@ export default function Course() {
     setCourses(
       data?.filter(
         (c) =>
-          c.title.toLowerCase().includes(value.toLowerCase()) ||
-          c.category.toLowerCase().includes(value.toLowerCase())
+          c?.title?.toLowerCase()?.includes(value?.toLowerCase()) ||
+          c?.category?.toLowerCase()?.includes(value?.toLowerCase())
       )
     );
   };
@@ -46,15 +46,15 @@ export default function Course() {
     let CourseData = courses ? courses : [...data];
     if (value === "newest") {
       const sortedData = [...CourseData].sort((a, b) => {
-        const dateA = new Date(a.createdAt);
-        const dateB = new Date(b.createdAt);
+        const dateA = new Date(a?.createdAt);
+        const dateB = new Date(b?.createdAt);
         return dateB - dateA;
       });
       setCourses(sortedData);
     } else if (value === "oldest") {
       const sortedData = [...CourseData].sort((a, b) => {
-        const dateA = new Date(a.createdAt);
-        const dateB = new Date(b.createdAt);
+        const dateA = new Date(a?.createdAt);
+        const dateB = new Date(b?.createdAt);
         return dateA - dateB;
       });
       setCourses(sortedData);

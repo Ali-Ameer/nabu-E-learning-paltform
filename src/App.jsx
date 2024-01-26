@@ -18,6 +18,7 @@ const NotFound404 = lazy(()=> import("./pages/NotFound404"));
 
 function App() {
   const language = useSelector((state) => state.language.language);
+
   return (
     <div className={`App h-full dark:bg-neutral-800 ${language === "en" ? "font-poppins" : "font-tajawal"}`} >
 
