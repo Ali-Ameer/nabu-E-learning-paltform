@@ -17,6 +17,7 @@ export default function Course() {
   const [courses, setCourses] = useState(data);
   const [openCategory, setOpenCategory] = useState(false);
 
+  console.log(data);
   const categoryData = [
     { name: language.categories.webDevelopment, value: "Web development", id: 1 },
     { name: language.categories.programming, value: "Programming", id: 2 },
